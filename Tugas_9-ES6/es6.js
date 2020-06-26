@@ -9,7 +9,7 @@ const newFunction = (firstName,lastName) => {
 	firstName: firstName,
 	lastName : lastName,
     fullName : function(){
-      console.log(firstName + " " + lastName)
+      console.log(firstName + " "+ lastName)
       return 
     }
   }
